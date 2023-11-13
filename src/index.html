@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown calendar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/src/styles/main.scss">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <h1 class="header__title">The Countdown calendar  <i class="far fa-clock"></i><i class="fas fa-calendar"></i>
+            </h1> 
+        </div>
+    </header>
+    <section class="events">
+        <div class="events__container">
+            <ul class="events__list">
+                <li class="events__list__item">
+                    <h1>Me <i class="fas fa-male"></i></h1> 
+                    <img src="./images/me.jpeg" alt="Imagem relacionada ao evento">
+                    <h3>13 Maio</h3>
+                    <span id="contadorMeu"></span>
+                </li>
+                <li class="events__list__item">
+                    <h1>Lolis <i class="fas fa-heart"></i></h1> 
+                    <img src="./images/lolis.jpeg" alt="Imagem relacionada ao evento">
+                    <h3> 06 Janeiro</h3>
+                    <span id="contadorLolis"></span>
+                </li>
+                <li class="events__list__item">
+                    <h1>Wedding <i class="fas fa-ring"></i></h1> 
+                    <img src="./images/wedding.jpeg" alt="Imagem relacionada ao evento">
+                    <h3>27 Dezembro</h3>
+                    <span id="contadorWedding"></span>
+                </li>
+                <li class="events__list__item">
+                    <h1>Mom <i class="fas fa-female"></i></h1> 
+                    <img src="./images/mom.jpeg" alt="Imagem relacionada ao evento">
+                    <h3>14 Novembro</h3>
+                    <span id="contadorMom"></span>
+                </li>
+                <li class="events__list__item">
+                    <h1>Dad <i class="fas fa-user-tie"></i></h1> 
+                    <img src="./images/dad.png.jpeg" alt="Imagem relacionada ao evento">
+                    <h3>05 Dezembro</h3>
+                    <span id="contadorDad"></span>
+                </li>
+                <li class="events__list__item">
+                    <h1>Special Day <i class="fas fa-star"></i></h1> 
+                    <img src="./images/day.jpeg" alt="Imagem relacionada ao evento">
+                    <h3>18 Outubro</h3>
+                    <span id="contadorKiss"></span>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="/src/scripts/main.js"></script>
+</body>
+</html>

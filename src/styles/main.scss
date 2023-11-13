@@ -1,0 +1,27 @@
+@use 'header';
+@use 'events';
+
+@font-face {
+    font-family: 'Digital-7';
+    src: url(../assets/digital-7.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+body {
+    color: black;
+    background-image: radial-gradient(circle at 50% 50%, #1c3435 0, #182a29 16.67%, #121b1a 33.33%, #000000 50%, #000000 66.67%, #000000 83.33%, #000000 100%);
+}
+
+img {
+    width: 183.67px;
+    height: 100%;
+    max-height: 180px;
+    border-radius: 20%;
+    padding: 10px;
+}

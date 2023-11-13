@@ -1,0 +1,21 @@
+.header {
+
+    &__container {
+        padding: 40px;
+        max-width: 80%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    &__title {
+        padding: 10px;
+        border-radius: 10px;
+        background-image: radial-gradient(circle at 120.71% 50%, #ff8f00 0, #ff7b25 10%, #ff6537 20%, #ff4d43 30%, #ff304b 40%, #ff0050 50%, #e60053 60%, #cf0055 70%, #ba0058 80%, #a6005b 90%, #95005f 100%);
+        font-weight: 900;
+        letter-spacing: 8px;
+        line-height: 100px;
+        font-size: 40px;
+    }
+}
