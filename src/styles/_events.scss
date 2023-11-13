@@ -11,12 +11,24 @@
         grid-template-columns: 1fr 1fr 1fr;
         gap: 15px;
 
+        @media (max-width: 950px) {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        @media (max-width: 640px) {
+            display: block;
+        }
+
         &__item {
             width: 300px;
             text-align: center;
             display: block;
             background-image: radial-gradient(circle at 120.71% 50%, #ff8f00 0, #ff7b25 10%, #ff6537 20%, #ff4d43 30%, #ff304b 40%, #ff0050 50%, #e60053 60%, #cf0055 70%, #ba0058 80%, #a6005b 90%, #95005f 100%);
             border-radius: 10px;
+
+            @media (max-width: 640px) {
+                margin-bottom: 30px;
+            }
 
             h1 {
                 white-space: nowrap;

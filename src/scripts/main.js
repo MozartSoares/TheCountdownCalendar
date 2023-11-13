@@ -1,5 +1,5 @@
 
-
+AOS.init();
 //setando as datas
 const myBirthday = new Date("May 13, 2024 00:00:00");
 const lolisBirthday = new Date("Jan 06, 2024 00:00:00");

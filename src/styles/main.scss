@@ -24,4 +24,8 @@ img {
     max-height: 180px;
     border-radius: 20%;
     padding: 10px;
+
 }
+
+$breakpointCelular: (max-width: 640px);
+$breakpointTablet: (max-width: 950px);
